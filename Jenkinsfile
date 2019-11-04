@@ -76,8 +76,8 @@ spec:
           value: .tmp
         - name: HOME
           value: /home/devops
-        - name: inventory-ui-atn
-          value: dev
+        - name: ENVIRONMENT_NAME
+          value: inventory-ui-atn
         - name: BUILD_NUMBER
           value: ${env.BUILD_NUMBER}
 """
